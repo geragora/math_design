@@ -35,7 +35,7 @@ def draw_snowflake(size, depth, color, animation_speed):
 # Функция для создания случайной снежинки
 def create_snowflake():
     size = random.randint(50, 200)
-    depth = random.randint(0, 3)
+    depth = random.randint(1, 5)
     angle = random.randint(0, 360)
     color = random.choice(['white', 'red', 'cyan', 'green', 'yellow'])
     snowflake.penup()
